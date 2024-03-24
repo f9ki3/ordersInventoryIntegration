@@ -45,14 +45,10 @@ This project integrates two databases, db1 and db2, using GitHub for collaborati
 ## Contributors
 
 - Fyke Lleva
+- Mariel Solomon
 
 ---
 
-## License
-
-[Specify the project's license terms, if any.]
-
----
 
 ## Support
 
