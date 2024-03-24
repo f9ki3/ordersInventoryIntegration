@@ -54,7 +54,11 @@ This project integrates two databases, db1 and db2, using GitHub for collaborati
 
 For inquiries or assistance, please contact:
 
-[Provide contact information or relevant resources for support]
+- **Author:** Fyke Lleva
+- **Email:** floterina@gmail.com
+- **Facebook:** (https://web.facebook.com/FLOZ.STN)
+- **Linkedin:** (https://www.linkedin.com/in/fykkkie/)
+- **Website:** (https://f9ki3.onrender.com/)
 
 ---
 
