@@ -30,23 +30,17 @@ echo "Database synchronization completed successfully!";
 
 <section class="products">
 
-   <h1 class="title">Orders</h1>
+   <h1 class="title">Account</h1>
 
    <div style="font-size: 15px;">
-    <table id="orders_table" class="display">
+    <table id="account_table" class="display">
         <thead>
             <tr>
                 <th>ID</th>
-                <th>User ID</th>
                 <th>Name</th>
-                <th>Number</th>
                 <th>Email</th>
-                <th>Method</th>
-                <th>Address</th>
-                <th>Total Products</th>
-                <th>Total Price</th>
-                <th>Placed On</th>
-                <th>Payment Status</th>
+                <th>Password</th>
+                <th>User Type</th>
             </tr>
         </thead>
     </table>
@@ -71,23 +65,17 @@ echo "Database synchronization completed successfully!";
 <script src="js/script.js"></script>
 <script>
 $(document).ready(function() {
-    $('#orders_table').DataTable({
+    $('#account_table').DataTable({
         "ajax": {
-            "url": "get_orders.php",
+            "url": "get_account.php",
             "dataSrc": ""
         },
         "columns": [
             { "data": "id" },
-            { "data": "user_id" },
             { "data": "name" },
-            { "data": "number" },
             { "data": "email" },
-            { "data": "method" },
-            { "data": "address" },
-            { "data": "total_products" },
-            { "data": "total_price" },
-            { "data": "placed_on" },
-            { "data": "payment_status" }
+            { "data": "password" },
+            { "data": "user_type" }
         ]
     });
 });

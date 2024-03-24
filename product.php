@@ -1,3 +1,12 @@
+<?php
+// Include the synchronization script
+include 'database_sync.php';
+
+// Now you can call any functions or perform any actions after the synchronization process
+// For example:
+echo "Database synchronization completed successfully!";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +29,7 @@
 
 <section class="products">
 
-   <h1 class="title">Orders</h1>
+   <h1 class="title">Product</h1>
 
    <div style="font-size: 15px;">
     <table id="products_table" class="display">
