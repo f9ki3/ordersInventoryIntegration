@@ -60,6 +60,3 @@ For inquiries or assistance, please contact:
 - **Linkedin:** (https://www.linkedin.com/in/fykkkie/)
 - **Website:** (https://f9ki3.onrender.com/)
 
----
-
-[Add any additional sections or details relevant to the project.]
